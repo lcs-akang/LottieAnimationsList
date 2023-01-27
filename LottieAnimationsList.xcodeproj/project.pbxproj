@@ -13,11 +13,12 @@
 		A73F1CE029845AEE0045E6E3 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F1CDF29845AEE0045E6E3 /* AnimationsListView.swift */; };
 		A73F1CE329845C330045E6E3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A73F1CE229845C330045E6E3 /* Lottie */; };
 		A73F1CE529845C650045E6E3 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F1CE429845C650045E6E3 /* LottieView.swift */; };
-		A73F1CE829845DF80045E6E3 /* BubbleAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CE729845DF80045E6E3 /* BubbleAnimation.json */; };
+		A73F1CE829845DF80045E6E3 /* Bubble.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CE729845DF80045E6E3 /* Bubble.json */; };
 		A73F1CEA29845ECD0045E6E3 /* UpAndDown.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CE929845ECD0045E6E3 /* UpAndDown.json */; };
 		A73F1CEC29845F5D0045E6E3 /* Searching.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CEB29845F5D0045E6E3 /* Searching.json */; };
 		A73F1CEE29845FBE0045E6E3 /* Unlock.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CED29845FBE0045E6E3 /* Unlock.json */; };
 		A73F1CF029845FD90045E6E3 /* Earth.json in Resources */ = {isa = PBXBuildFile; fileRef = A73F1CEF29845FD90045E6E3 /* Earth.json */; };
+		A73F1CF22984602F0045E6E3 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F1CF12984602F0045E6E3 /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +28,12 @@
 		A73F1CD629845A770045E6E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A73F1CDF29845AEE0045E6E3 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		A73F1CE429845C650045E6E3 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		A73F1CE729845DF80045E6E3 /* BubbleAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BubbleAnimation.json; sourceTree = "<group>"; };
+		A73F1CE729845DF80045E6E3 /* Bubble.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Bubble.json; sourceTree = "<group>"; };
 		A73F1CE929845ECD0045E6E3 /* UpAndDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UpAndDown.json; sourceTree = "<group>"; };
 		A73F1CEB29845F5D0045E6E3 /* Searching.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Searching.json; sourceTree = "<group>"; };
 		A73F1CED29845FBE0045E6E3 /* Unlock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Unlock.json; sourceTree = "<group>"; };
 		A73F1CEF29845FD90045E6E3 /* Earth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Earth.json; sourceTree = "<group>"; };
+		A73F1CF12984602F0045E6E3 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,6 @@
 				A73F1CCF29845A740045E6E3 /* LottieAnimationsListApp.swift */,
 				A73F1CE629845D550045E6E3 /* Animations */,
 				A73F1CDE29845ABB0045E6E3 /* Views */,
-				A73F1CDD29845AB30045E6E3 /* Model */,
 				A73F1CD329845A770045E6E3 /* Assets.xcassets */,
 				A73F1CD529845A770045E6E3 /* Preview Content */,
 			);
@@ -86,6 +87,7 @@
 		A73F1CDD29845AB30045E6E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A73F1CF12984602F0045E6E3 /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,7 +108,8 @@
 				A73F1CED29845FBE0045E6E3 /* Unlock.json */,
 				A73F1CEB29845F5D0045E6E3 /* Searching.json */,
 				A73F1CE929845ECD0045E6E3 /* UpAndDown.json */,
-				A73F1CE729845DF80045E6E3 /* BubbleAnimation.json */,
+				A73F1CE729845DF80045E6E3 /* Bubble.json */,
+				A73F1CDD29845AB30045E6E3 /* Model */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -175,7 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73F1CE829845DF80045E6E3 /* BubbleAnimation.json in Resources */,
+				A73F1CE829845DF80045E6E3 /* Bubble.json in Resources */,
 				A73F1CD729845A770045E6E3 /* Preview Assets.xcassets in Resources */,
 				A73F1CEA29845ECD0045E6E3 /* UpAndDown.json in Resources */,
 				A73F1CD429845A770045E6E3 /* Assets.xcassets in Resources */,
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73F1CF22984602F0045E6E3 /* FavouriteAnimation.swift in Sources */,
 				A73F1CD029845A740045E6E3 /* LottieAnimationsListApp.swift in Sources */,
 				A73F1CE029845AEE0045E6E3 /* AnimationsListView.swift in Sources */,
 				A73F1CE529845C650045E6E3 /* LottieView.swift in Sources */,
