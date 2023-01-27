@@ -30,8 +30,8 @@ let favourites = [
                        description: "Searching 🔍")
     ,
     
-    FavouriteAnimation(fileName: "UpAndDown",
-                       description: "Up and Down")
+    FavouriteAnimation(fileName: "ThumbsUp",
+                       description: "Thumbs Up 👍")
     ,
     
     FavouriteAnimation(fileName: "Bubble", description: "Bubbles 🫧")
